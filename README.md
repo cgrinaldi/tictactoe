@@ -17,12 +17,12 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Submit your website using the link on the Agenda
 
 ### JavaScript
-- [ ] Create a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
-- [ ] Create a variable that keeps track of the total number of turns taken and set it equal to 0
-- [ ] Create a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
-- [ ] Implement behavior to place pieces on the board. Do this by creating a function called performLogic with parameters buttonId and tileId that removes the button of the corresponding buttonId, and changes the text of the div that is the tileId to the player variable.
-- [ ] Implement behavior that will change the turns of the player. Do this by writing a function that will change the current player to either "X" or "O" depending on the current player. Decide where to put this function.
-- [ ] Implement behavior that will change the title to "It's a draw!" and end the game by changing the boolean variable to true after 9 pieces are placed. Do this by writing a function that will add 1 to the current turns, and check if that counter has reached 9.
+- [x] Create a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
+- [x] Create a variable that keeps track of the total number of turns taken and set it equal to 0
+- [x] Create a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
+- [x] Implement behavior to place pieces on the board. Do this by creating a function called performLogic with parameters buttonId and tileId that removes the button of the corresponding buttonId, and changes the text of the div that is the tileId to the player variable.
+- [x] Implement behavior that will change the turns of the player. Do this by writing a function that will change the current player to either "X" or "O" depending on the current player. Decide where to put this function.
+- [x] Implement behavior that will change the title to "It's a draw!" and end the game by changing the boolean variable to true after 9 pieces are placed. Do this by writing a function that will add 1 to the current turns, and check if that counter has reached 9.
 
 #### Wrap
 - [ ] Push your changes!
