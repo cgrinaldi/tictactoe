@@ -31,13 +31,13 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 
 ## JavaScript
 
-- [ ] Implement behavior that will stop the game after a draw occurs. Do this by changing your performLogic function to check if the game has ended first before placing a piece.
-- [ ] Implement behavior that will end the game when a player wins. First write a function with 3 parameters of the tileIds, and return if the value of the each of the tileIds are equal to the current player
-- [ ] Next, write a function checkVerticalWins that will call the function above on all of the vertical combinations of tiles
-- [ ] Next, write a function checkHoritzontalWins that will call the function above on all of the horizontal combinations of tiles
-- [ ] Next, write a function checkDiagonalWins that will call the function above on all of the diagonal combinations
-- [ ] In each of the win functions, if the win condition is satisfied, set the end game variable to true, and change the title to "[Player] Wins!"
-- [ ] Determine the appropriate location to place the Win functions
+- [x] Implement behavior that will stop the game after a draw occurs. Do this by changing your performLogic function to check if the game has ended first before placing a piece.
+- [x] Implement behavior that will end the game when a player wins. First write a function with 3 parameters of the tileIds, and return if the value of the each of the tileIds are equal to the current player
+- [x] Next, write a function checkVerticalWins that will call the function above on all of the vertical combinations of tiles
+- [x] Next, write a function checkHoritzontalWins that will call the function above on all of the horizontal combinations of tiles
+- [x] Next, write a function checkDiagonalWins that will call the function above on all of the diagonal combinations
+- [x] In each of the win functions, if the win condition is satisfied, set the end game variable to true, and change the title to "[Player] Wins!"
+- [x] Determine the appropriate location to place the Win functions
 
 #### Wrap
 - [ ] Push your changes!

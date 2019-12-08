@@ -26,35 +26,26 @@ function isWinner(tileId1, tileId2, tileId3) {
     let tile2 = $(tileId2).text()
     let tile3 = $(tileId3).text()
     if ((tile1 == currentPlayer) && (tile1 == tile2) && (tile1 == tile3)) {
-        return true
+        $('h1').text(currentPlayer + ' Wins!');
+        isFinished = true;
     }
-    return false
 }
 
 function checkVerticalWins() {
-    if (isWinner('#tile1', '#tile4', '#tile7') || 
-        isWinner('#tile2', '#tile5', '#tile8') || 
-        isWinner('#tile3', '#tile6', '#tile9')) {
-            $('h1').text(currentPlayer + 'Wins!')
-            isFinished = true;
-        }
+    isWinner('#tile1', '#tile4', '#tile7');
+    isWinner('#tile2', '#tile5', '#tile8');
+    isWinner('#tile3', '#tile6', '#tile9');
 }
 
 function checkHorizontalWins() {
-    if (isWinner('#tile1', '#tile2', '#tile3') || 
-        isWinner('#tile4', '#tile5', '#tile6') || 
-        isWinner('#tile7', '#tile8', '#tile9')) {
-            $('h1').text(currentPlayer + 'Wins!')
-            isFinished = true;
-        }
+    isWinner('#tile1', '#tile2', '#tile3');
+    isWinner('#tile4', '#tile5', '#tile6');
+    isWinner('#tile7', '#tile8', '#tile9');
 }
 
 function checkDiagonalWins() {
-    if (isWinner('#tile1', '#tile5', '#tile9') ||  
-        isWinner('#tile3', '#tile5', '#tile7')) {
-            $('h1').text(currentPlayer + 'Wins!')
-            isFinished = true;
-        }
+    isWinner('#tile1', '#tile5', '#tile9');
+    isWinner('#tile3', '#tile5', '#tile7');
 }
 
 function endTurn() {
